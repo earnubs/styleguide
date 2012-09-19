@@ -41,3 +41,12 @@ Do not Repeat Yourself
 * A header style, list style, table style, whatever, should work once and
   everywhere the same.
 * Leverage CSS Preprocessors, but keep it simple.
+
+
+* * *
+
+Code Style Guides
+=================
+
+HTML & CSS: http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml
+JavaScript: http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml 
