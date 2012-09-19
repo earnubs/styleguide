@@ -1,8 +1,8 @@
 Style Guide
 ==============
 
-Keep it Simple, Stupid
-----------------------
+Keep it Simple
+--------------
 
 * When you cascade a rule, keep it local and obvious.
 * Define a list of global rules which have no side effects in a global context,
