@@ -19,11 +19,11 @@ Separation of Concerns
 * Separate the element from the style, HTML from CSS. An H1 is not a style.
   Create a language for typography ( and there's no harm in verbosity if it's
   self documenting):
-  ** .foo-heading-title { /* foo is the css namespace */ }
-  ** .foo-heading-main { }
-  ** .foo-heading-medium { }
-  ** .foo-heading-small { }
-  ** .foo-heading-runin { }
+    * .foo-heading-title { /* foo is the css namespace */ }
+    * .foo-heading-main { }
+    * .foo-heading-medium { }
+    * .foo-heading-small { }
+    * .foo-heading-runin { }
 * Prefix grid, js, style, rules, eg. grid-, js-, style- and keep them seperate. 
 * Each namespace should be agnostic to the styles in another namespace.
 * A page is not a style, consider carefully body class styles.
