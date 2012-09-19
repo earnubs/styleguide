@@ -1,0 +1,33 @@
+<!doctype html>
+<meta charset=utf-8>
+<title>Forms &amp; Buttons</title>
+<link href=http://yui.yahooapis.com/3.7.0/build/cssreset/cssreset-min.css rel=stylesheet>
+<link href=../guide.css rel=stylesheet>
+<link href=forms.css rel=stylesheet>
+<style>
+  .hide { display:none }/* TODO move to global list */
+</style>
+
+
+<article>
+  <p class=guide>search boxes
+  <div class="foo-search">
+    <form action="/foo" method="GET">
+      <label class=hide for="search">Search:</label>
+      <div class="foo-search-wrap">
+        <input id="js-search" class="foo-search-input" type="search" name="q" placeholder="Search" x-webkit-speech="">
+        <input type="hidden" name="grp" value="1">
+        <button class="foo-button foo-button-search"><span class="foo-search-icon"></span><span class="hide">Search</span></button>
+      </div>
+    </form>
+  </div>
+</article>
+<article>
+  <p class=guide>&lt;button&gt; element
+  <p><button class="foo-button">Eat me</button>
+  <button class="foo-button">Drink me</button>
+  <p class=guide>&lt;a&gt; element
+  <p><a class="foo-button">Eat me</a>
+  <a class="foo-button">Drink me</a>
+  <p class=comment>Should not be a difference between these (there in FF16)
+</article>

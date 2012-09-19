@@ -55,3 +55,9 @@ img {
     margin:0 0 1em 0;
     display:block
 }
+
+/** ideas **/
+
+.foo-measure-default {
+    width: 350px;
+}

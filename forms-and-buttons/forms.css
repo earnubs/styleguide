@@ -1,0 +1,71 @@
+.foo-search {
+    padding: 15px 10px;
+    overflow: hidden;
+    margin-bottom: 0;
+}
+
+.foo-search-wrap {
+    width: 100%;
+    padding-right: 28px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    height:30px;
+}
+
+.foo-search-input {
+    -webkit-appearance: textfield;
+    border: 1px solid #aea79f;
+    font-size: 16px;
+    float: left;
+    height: 30px;
+    width: 100%;
+    padding: 0 4px 0 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+.foo-search input:-moz-placeholder {
+    padding-left:5px;
+}
+
+.foo-search-icon {
+    width: 24px;
+    height: 24px;
+    display: block;
+    background: transparent url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAihJREFUeNqck89vEkEUx3c2kPD7R2D5cePU4MEmJiQeECpBxS5Njxq9ePJCrD34D/RmjxrjRZu0XtRGDzUGiXgxHrS9cGmABC4SAyTLzwIlLAjrd5o2Nh0obb/Jy8zOvP3Mm/feEEVRuCPZ7fYghiXYdfoJa8O2YWuwD9Vq9b/zCREKAkCF+XOj0RhzuVwls9n8SaVSFYbDoaPT6cxLknSpVqt9hc9dwPYmggRBeOnxeGJOp3O13++vJJNJ+cghHA4TrVb7sNlsvsjn8z8BvwnYX4Zks9kCPp9PiUajTyl0komieC8QCCiIPjZun8d1HiOSErTCnaJ4PP7OZDJ9dzgcy+P2eeRkDtfZSqVSMjdFrVbrvdvtnkFULgaEU4RGo/GbO4OQm4JGo+HUajULwuK+LMv2s4AQ+YEf/mEqx49Gox2U+jbCJdNA8BMxSKhcgQGhT9YtFsss5vdPg+CgK/C7MxgMNorF4ogBodne6nS6H3B8BRMnQC7r9frPaJVSpVJ5PbEhg8GgYDAYvuRyOR8abwvrm7A/h89kAQc98Hq9Eub6TCZDer1eBInfYUBUoVBIi1Of1Ov1R3gOTiSW5oSzWq1tdP4bXGmd5/ltQog6m822kJJbx2Hk+KOlikQitJIzmNISN5HYTCKR6NM9dP8iQB+xxsAY0DSNgV0DbPfcoJOwdDq92e12n10IdAi7AdgS8rlYLpfbFwZR+f3+qyjGN0T2658AAwCdDDRn21A3mwAAAABJRU5ErkJggg==') 3px 3px no-repeat;
+}
+
+.foo-button {
+    background: #e6e6e6;
+    background: -moz-linear-gradient(0% 100% 90deg, #e6e6e6, #fefefe);
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fefefe), to(#e6e6e6));
+    border-radius: 3px;
+    border: 1px solid #747474;
+    color: #333333;
+    display: inline-block;
+    padding: 5px 3px;
+    text-decoration: none;
+    font-size:12px;
+}
+
+.foo-button.foo-button-search {
+    position: absolute;
+    top: 0;
+    height:30px;
+    right: 0px;
+    padding: 2px;
+    border-left:1px solid #aea78f;
+    border-top-left-radius:0;
+    border-bottom-left-radius:0;
+    border-color: #aea79f;
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;  
+}

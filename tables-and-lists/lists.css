@@ -1,5 +1,9 @@
 .foo-list {
-    margin:2em 0;
+    margin:1em 0;
+}
+
+.foo-list ol {
+    margin:0.5em 1em;
 }
 
 .foo-list li {
