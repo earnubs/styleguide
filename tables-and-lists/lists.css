@@ -1,0 +1,27 @@
+.foo-list {
+    margin:2em 0;
+}
+
+.foo-list li {
+    margin:0 0 1em 0;
+    list-style:inside;
+}
+
+.foo-list-bulleted li {
+    list-style-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAHAgMAAABW/tR+AAAAAXNSR0IArs4c6QAAAAlQTFRFhwAFmZmZzMzMmHB+2AAAAAF0Uk5TAEDm2GYAAAABYktHRACIBR1IAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH2wIWFgMB/x6h+AAAABBJREFUCNdjYAADzgQQggEACZYA000oxv4AAAAASUVORK5CYII=);
+}
+
+.foo-list-ordered li {
+    list-style-type:decimal;
+}
+
+.foo-list-ordered-alpha li {
+    list-style-type:lower-alpha;
+}
+
+.foo-list-truncated li {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+

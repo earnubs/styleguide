@@ -1,0 +1,194 @@
+<!doctype html>
+<meta charset=utf-8>
+<title>Tables &amp; Lists</title>
+<link href=http://yui.yahooapis.com/3.7.0/build/cssreset/cssreset-min.css rel=stylesheet>
+<link href=../guide.css rel=stylesheet>
+<link href=tables.css rel=stylesheet>
+<link href=lists.css rel=stylesheet>
+
+
+<article>
+
+  <p class=guide>bulleted lists</p>
+  <p>lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec libero purus, a accumsan ipsum. Etiam ut sem eget justo auctor cursus. Donec nisi magna, auctor nec posuere vitae, vehicula tempus erat. Proin arcu arcu, malesuada vitae fermentum ut, pulvinar at felis.</p>
+
+  <ul class="foo-list foo-list-bulleted">
+    <li>lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+    <li>Etiam nec libero purus, a accumsan ipsum.</li>
+    <li>Etiam ut sem eget justo auctor cursus.</li>
+    <li>Donec nisi magna, auctor nec posuere vitae, vehicula tempus erat.</li>
+    <li>Proin arcu arcu, malesuada vitae fermentum ut, pulvinar at felis</li>
+  </ul>       
+  <p>lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec libero purus, a accumsan ipsum. Etiam ut sem eget justo auctor cursus. Donec nisi magna, auctor nec posuere vitae, vehicula tempus erat. Proin arcu arcu, malesuada vitae fermentum ut, pulvinar at felis.</p>
+</article>
+
+<article>
+  <p class=guide>ordered lists</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec libero purus, a accumsan ipsum. Etiam ut sem eget justo auctor cursus. Donec nisi magna, auctor nec posuere vitae, vehicula tempus erat. Proin arcu arcu, malesuada vitae fermentum ut, pulvinar at felis.</p>
+
+  <ol class="foo-list foo-list-ordered">
+    <li>lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+    <li>Etiam nec libero purus, a accumsan ipsum.</li>
+    <li>Etiam ut sem eget justo auctor cursus.</li>
+    <li>Donec nisi magna, auctor nec posuere vitae, vehicula tempus erat.</li>
+    <li>Proin arcu arcu, malesuada vitae fermentum ut, pulvinar at felis</li>
+  </ol>
+
+  <ol class="foo-list foo-list-ordered-alpha">
+    <li>lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+    <li>Etiam nec libero purus, a accumsan ipsum.</li>
+    <li>Etiam ut sem eget justo auctor cursus.</li>
+    <li>Donec nisi magna, auctor nec posuere vitae, vehicula tempus erat.</li>
+    <li>Proin arcu arcu, malesuada vitae fermentum ut, pulvinar at felis</li>
+  </ol>
+  <p>lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec libero purus, a accumsan ipsum. Etiam ut sem eget justo auctor cursus. Donec nisi magna, auctor nec posuere vitae, vehicula tempus erat. Proin arcu arcu, malesuada vitae fermentum ut, pulvinar at felis.</p>   
+</article>
+
+<article>
+  <p class=guide>truncated bulleted list</p>
+  <ul class="foo-list foo-list-bulleted foo-list-truncated" style="width:16em">
+    <li>lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+    <li>Etiam nec libero purus, a accumsan ipsum.</li>
+    <li>Etiam ut sem eget justo auctor cursus.</li>
+    <li>Donec nisi magna, auctor nec posuere vitae, vehicula tempus erat.</li>
+    <li>Proin arcu arcu, malesuada vitae fermentum ut, pulvinar at felis</li>
+  </ul>
+</article>
+
+<article>
+  <p class=guide>table styles</p>
+  <p class=comment>Table style needs work<p>
+  <!-- hat tip Veerle Pieters -->
+  <table class="foo-table" summary="Webhosting products overview showing all available packages, what's included and what the monthly cost is with an option to order">
+    <caption>Company X webhosting products overview</caption>
+    <thead>
+      <tr>
+        <td></td>
+        <th scope="col" abbr="Home">Webhosting Home</th>
+        <th scope="col" abbr="Home Plus">Webhosting Home Plus</th>  
+        <th scope="col" abbr="Business">Webhosting Business</th>
+        <th scope="col" abbr="Business Plus">Webhosting Business Plus</th>
+      </tr> 
+    </thead>
+    <tfoot> 
+      <tr>
+        <td>&nbsp;</td>
+        <th scope="col"><strong>Webhosting Home</strong><br /><em>€ 4,95</em>/ month<br />
+          <a href="#" title="Bestel Web Hosting Home">&#10004;</a></th>
+        <th scope="col"><strong>Webhosting Home Plus</strong><br /><em>€ 9,95 </em>/ month<br />
+          <a href="#" title="Bestel Web Hosting Home Plus">&#10004;</a></th>
+        <th scope="col"><strong>Webhosting Business</strong><br /><em>€14,95</em> / month<br />
+          <a href="#" title="Bestel Web Hosting Business">&#10004;</a></th>
+        <th scope="col"><strong>Webhosting Business Plus</strong><br /><em>€ 19,95</em> / month<br />
+          <a href="#" title="Bestel Web Hosting Business Plus">&#10004;</a></th>
+      </tr> 
+    </tfoot>
+    <tbody>
+    <tr>
+      <th scope="row">Data usage</th>
+      <td>1 GB per month</td>
+      <td>2 GB per month</td>
+      <td>5 GB per month</td>
+      <td>10 GB per month</td>
+    </tr> 
+    <tr>
+      <th scope="row">Opslag Capaciteit</th>
+      <td>100 MB  </td>
+      <td>250 MB</td>
+      <td>500 MB</td>
+      <td>1 GB</td>
+    </tr> 
+    <tr>
+      <th scope="row">MySQL Databases</th>  
+      <td>1</td>
+      <td>2</td>
+      <td>5</td>
+      <td>10</td>
+    </tr> 
+    <tr>
+      <th scope="row">Email Boxes</th>
+      <td>5</td>
+      <td>10</td>
+      <td>25</td>
+      <td>50</td>
+    </tr> 
+    <tr>
+      <th scope="row">Email Addresses</th>
+      <td>Unlimited</td>
+      <td>Unlimited</td>
+      <td>Unlimited</td>
+      <td>Unlimited</td>
+    </tr> 
+    <tr>
+      <th scope="row">Spam and Virus filter</th>
+      <td>&#10004;</td>
+      <td>&#10004;</td>
+      <td>&#10004;</td>
+      <td>&#10004;</td>
+    </tr> 
+    <tr>
+      <th scope="row">Mailinglists</th>
+      <td>&#10004;</td>
+      <td>&#10004;</td>
+      <td>&#10004;</td>
+      <td>&#10004;</td>
+    </tr> 
+    <tr>
+      <th scope="row">Autoresponders</th>
+      <td>&#10004;</td>
+      <td>&#10004;</td>
+      <td>&#10004;</td>
+      <td>&#10004;</td>
+    </tr> 
+    <tr>
+      <th scope="row">PHP Supportg</th>
+      <td>&#10004;</td>
+      <td>&#10004;</td>
+      <td>&#10004;</td>
+      <td>&#10004;</td>
+    </tr> 
+    <tr>
+      <th scope="row">CGI Support</th>
+      <td>&#10004;</td>
+      <td>&#10004;</td>
+      <td>&#10004;</td>
+      <td>&#10004;</td>
+    </tr> 
+    <tr>
+      <th scope="row">SSL Support</th>
+      <td>&#10004;</td>
+      <td>&#10004;</td>
+      <td>&#10004;</td>
+      <td>&#10004;</td>
+    </tr>
+    <tr>
+      <th scope="row">DNS Management</th>
+      <td>&#10004;</td>
+      <td>&#10004;</td>
+      <td>&#10004;</td>
+      <td>&#10004;</td>
+    </tr> 
+    <tr>
+      <th scope="row">Error Documents</th>
+      <td>&#10004;</td>
+      <td>&#10004;</td>
+      <td>&#10004;</td>
+      <td>&#10004;</td>
+    </tr> 
+    <tr>
+      <th scope="row">Secure Folders</th>
+      <td>&#10004;</td>
+      <td>&#10004;</td>
+      <td>&#10004;</td>
+      <td>&#10004;</td>
+    </tr> 
+    <tr>
+      <th scope="row">Statistics</th>
+      <td>&#10004;</td>
+      <td>&#10004;</td>
+      <td>&#10004;</td>
+      <td>&#10004;</td>
+    </tr>
+    </tbody>
+  </table>
+</article>
