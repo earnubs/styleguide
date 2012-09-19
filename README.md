@@ -42,7 +42,7 @@ Do not Repeat Yourself
   component. (See headers example)
 * A header style, list style, table style, whatever, should work once and
   everywhere the same.
-* Leverage CSS Preprocessors, but keep it simple.
+* Leverage CSS Preprocessors, but remember to keep it simple.
 
 
 * * *
