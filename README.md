@@ -1,6 +1,8 @@
 Style Guide
 ==============
 
+Style Guide sandbox: http://jsbin.com/ifefoq/latest
+
 Keep it Simple
 --------------
 
