@@ -1,8 +1,8 @@
 Style Guide
 ==============
 
-Keep it Simple, Stupid
-----------------------
+Keep it Simple
+--------------
 
 * When you cascade a rule, keep it local and obvious.
 * Define a list of global rules which have no side effects in a global context,
@@ -12,6 +12,8 @@ Keep it Simple, Stupid
   clear, work everywhere and have no unwanted zooming side effects.
 * Constrain variations, eg. 4 header styles only, 2 list styles, 1 table style
   etc etc
+* Define the physical world your components live in, don't keep coming up with
+  shadow depths, angles, radii, easing types. Make it consistent and learnable. 
 
 Separation of Concerns
 ----------------------
