@@ -1,0 +1,76 @@
+.foo-heading-section-main {
+    font-size:36px;
+    line-height:1.4;
+    margin:1em 0;
+    padding:0;
+    font-weight:900;
+    text-transform:capitalize;
+    letter-spacing:0;
+}
+
+.foo-heading-main {
+    font-size:24px;
+    line-height:1.4;
+    margin:1em 0;
+    padding:0;
+    text-transform:uppercase;
+    letter-spacing:3px;
+    font-weight:500;
+}
+
+.foo-heading-medium {
+    font-size:18px;
+    line-height:1.4;
+    margin:1em 0;
+    padding:0;
+    text-transform:capitalize;
+    letter-spacing:0;
+}
+
+.foo-heading-light {
+    font-size:16px;
+    line-height:1.4;
+    margin:1em 0;
+    padding:0;
+    font-weight:100;
+    text-transform:uppercase;
+    letter-spacing:4px;
+}
+
+.foo-heading-kicker {
+    /* same size as runin header */
+    font-size:13px;
+    line-height:1;
+    margin:1em 0;
+    padding:0;
+    font-weight:500;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    font-weight:500;
+}
+
+.foo-heading-runin {
+    display:inline;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    font-weight:500;
+}
+
+.foo-heading-crosshead {
+    text-align:center;
+}
+
+.foo-heading-with-rider,
+.foo-heading-with-kicker {
+    margin:1em 0;
+}
+
+.foo-heading-with-rider > *,
+.foo-heading-with-kicker > * {
+    margin:0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    /* reminder not to use bare h tags as styles */
+    font-size:6px;
+}
