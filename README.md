@@ -9,7 +9,8 @@ Keep it Simple
 * When you cascade a rule, keep it local and obvious.
 * Define a list of global rules which have no side effects in a global context,
   for example 'active', 'first', 'last', 'hide' (that is to say, you shouldn't
-  create classes like this without thinking long and hard!)
+  create classes like this without thinking long and hard, and probably talking
+  to someone first!)
 * Favour pixels as units, em's in the case of typographic relativity (% is
   derived and in pixels, line-height is unitless, pixels or em's). Pixels are
   clear, work everywhere and have no unwanted zooming side effects.
