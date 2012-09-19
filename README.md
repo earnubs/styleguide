@@ -50,5 +50,5 @@ Do not Repeat Yourself
 Code Style Guides
 =================
 
-HTML & CSS: http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml
-JavaScript: http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml 
+* HTML & CSS: http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml
+* JavaScript: http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml 
