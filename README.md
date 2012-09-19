@@ -30,7 +30,7 @@ Separation of Concerns
     * .foo-heading-medium { }
     * .foo-heading-small { }
     * .foo-heading-runin { }
-* Prefix grid, js, style, rules, eg. grid-, js-, style- and keep them seperate. 
+* Prefix grid, js, and style rules, eg. grid-, js-, style- and keep them seperate. 
 * Each namespace should be agnostic to the styles in another namespace.
 * A page is not a style, consider carefully body class styles.
 * Use multiclass pattern over cascading where sensible. (Don't allow your
